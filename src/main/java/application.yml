@@ -28,8 +28,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sdevireddy/discover-service.git  # 👈 REQUIRED
+          uri: https://github.com/sdevireddy/config-server.git
           clone-on-start: true
+          search-paths: config-repo
           default-label: main  # adjust if your repo uses 'master' or something else
       
 eureka:
